@@ -1,10 +1,11 @@
 import './App.css';
-import Getstarted from './components/Getstarted';
 
 function App() {
   return (
     <div className="App">
-      <Getstarted />
+      <h2>Logistic Management App</h2>
+      <button>Waste Management</button>
+      <button>Transport Management</button>
     </div>
   );
 }
