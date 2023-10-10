@@ -1,11 +1,17 @@
 import './App.css';
+import Transport from './components/Transportmng';
+import Truck from './components/Truck';
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <h2>Logistic Management App</h2>
-      <button>Waste Management</button>
-      <button>Transport Management</button>
+    
+        <Routes>
+          <Route path='/' element={<Transport />} />
+          <Route path='/Truck' element={<Truck />} />
+        </Routes>
+
     </div>
   );
 }
