@@ -8,7 +8,7 @@ const Transport = (props) => {
   return (
     <div className="container">  
       <h2>Welcome to Logistic Management App</h2>
-      <button onClick={() => navigate('/Truck')}>Truck Management</button>
+      <button onClick={() => navigate('/Login')}>Truck Management</button>
       <button>Waste Management</button>
     </div>
   )
